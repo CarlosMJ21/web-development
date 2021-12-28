@@ -1,0 +1,119 @@
+body {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
+
+/* HEADER */
+
+#header-nav{
+    background-color: #bbbbbb;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+.navbar-brand h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #1010cc;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0.75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle{
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+.navbar-header button.navbar-toggle[aria-expanded="true"] {
+    border: 2px solid #dddddd;
+    background-color: inherit;
+    
+}
+
+.navbar-header .icon-bar {
+    width: 26px;
+    border: 2px solid black;
+}
+
+.navbar-header button.navbar-toggle[aria-expanded="true"] .icon-bar {
+    border: 2px solid #dddddd;
+}
+
+#nav-list {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#nav-list hr{
+    border: 1px solid black;
+    width: 98%;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#nav-list a{
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-align: center;
+}
+
+/* END HEADER */
+
+/* MAIN CONTENT */
+
+h2.main-title {
+    font-size: 1.75em;
+    font-weight: bold;
+    color: black;
+}
+
+div.dish-box {
+    background-color: #bbbbbb;
+}
+
+h3.dish-title {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    padding-top: 15px;
+    margin-bottom: 0px;
+}
+
+p.dish-description {
+    border: 0;
+    padding: 10px 15px;
+}
+
+
+/* END MAIN CONTENT */
+
+/* MEDIA CONTENT */
+
+@media (max-width: 767px) {
+
+    #menu-options-collapse {
+        background-color: white;
+        border: 2px solid black;
+    }
+}
+
+/* END MEDIA CONTENT */
